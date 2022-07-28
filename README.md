@@ -1,4 +1,4 @@
-# nyc-point-to-road-labele
+# nyc-point-to-road-labeler
 A python libray to rapidly label single-points or complete geojson files against all ~150k roads in the 5 boroughs of NYC.  Implementation builds a lookup index from the NYC Open-Data Portal and efficiently matches using SKLearns KDTree.  Very useful in performing geospatial data science such as snapping certain incidents like traffic, crime, or event data to their retrospective roads. Also great for higher level detail analysis after clustering by NYC Census regions or Precincts.
 
 ## 1. Setup Guide
